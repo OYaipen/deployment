@@ -1,12 +1,20 @@
+// import '@babel/polyfill'
+// import 'mutationobserver-shim'
 import Vue from 'vue'
-import App from './App.vue'
-import router from './router'
-import store from './store'
+import store from '~/store'
+import router from '~/router'
+import i18n from '~/plugins/i18n'
+import App from '~/components/App'
+
+import '~/plugins'
+import '~/components'
 
 Vue.config.productionTip = false
 
+/* eslint-disable no-new */
 new Vue({
-  router,
+  i18n,
   store,
-  render: h => h(App)
-}).$mount('#app')
+  router,
+  ...App
+})

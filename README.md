@@ -1,24 +1,26 @@
-# deployment
+# Deployment
 
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles for development
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Portafolio 
+Home page for a virtual machine in google cloud with the linux 18.04 LTS system, ngnix server.
 
-### Lints and fixes files
-```
-npm run lint
-```
+## experience in
+Vue
+Vuex
+Cookies
+Vue-cli
+vue-i18n
+boostrap-vue
+scss
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
