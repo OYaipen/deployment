@@ -1,3 +1,5 @@
 import './bootstrap-vue'
 import './vue-ui';
-import './vue-online'
+import './axios'
+import './fontawoseme'
+import './alerts'

@@ -1,18 +1,20 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" variant="dark">
+  <b-navbar toggleable="lg" type="dark"  class="fixed-top" id="mainNav">
     <b-container>
       <b-navbar-brand :to="{ name: user ? 'home' : 'welcome' }" class="navbar-brand">{{ appName }}</b-navbar-brand>
 
-      <b-navbar-toggle target="nav-collapse"></b-navbar-toggle>
+      <b-navbar-toggle target="nav-collapse" class="navbar-toggler-right">
+        Menu
+      </b-navbar-toggle>
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <b-nav-item to="/about">About</b-nav-item>
+          <locale-dropdown class="nav-item" right />
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
         <b-navbar-nav class="ml-auto">
-          <locale-dropdown right />
+          <b-nav-item to="/about">{{$t('about')}}</b-nav-item>
         </b-navbar-nav>
       </b-collapse>
     </b-container>

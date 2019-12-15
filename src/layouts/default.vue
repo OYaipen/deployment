@@ -10,7 +10,7 @@
 import Navbar from "@/components/Navbar.vue";
 
 export default {
-  name: "Free",
+  name: "MainDefault",
   components: {
     Navbar
   }

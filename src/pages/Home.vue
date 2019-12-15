@@ -1,19 +1,15 @@
 <template>
   <div class="home">
-    <b-alert :show="!$online" variant="danger">No Hay internet oe vuelve a conectar p causa</b-alert>
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <Header :title="$t('home')" message="Tecnologia" image="welcome" />
+
   </div>
 </template>
 
 <script>
-// @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
 export default {
-  layout: "free",
+  layout: "default",
   name: "home",
-  components: {
-    HelloWorld
-  },
+  components: {},
   metaInfo() {
     return { title: this.$t("home") };
   }
