@@ -78,5 +78,6 @@
   "developer": "Developer",
   "close": "Close",
   "create": "Create",
-  "error_conection": "Internet connection failed"
+  "error_conection": "Internet connection failed",
+  "menu": "Menu"
 }

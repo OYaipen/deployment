@@ -1,7 +1,7 @@
 <template>
   <div>
-    <b-nav-item-dropdown  id="dropdown-1" :text="locale" right>
-      <b-dropdown-item
+    <b-nav-item-dropdown id="dropdown-1" :text="locale" left>
+      <b-dropdown-item 
         v-for="value in locales"
         :key="value"
         @click.prevent="setLocale(value)"

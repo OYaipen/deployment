@@ -73,5 +73,6 @@
   "developer": "Desarrollador",
   "close": "Cerrar",
   "create": "Crear",
-  "error_conection":"Error en la conexion a internet"
+  "error_conection": "Error en la conexion a internet",
+  "menu": "Menú"
 }

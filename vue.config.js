@@ -1,11 +1,15 @@
 const path = require("path");
 
 module.exports = {
+    devServer: {
+        port: 3000
+    },
+    outputDir: './dist',
     chainWebpack: config => {
         config
-            .entry("main")
+            .entry("app")
             .clear()
-            .add("./src/main.js")
+            .add("./src/app.js")
             .end();
         config.resolve.alias
             .set("~", path.join(__dirname, "./src"))
