@@ -4,12 +4,9 @@
     <header class="masthead">
       <div class="container">
         <div class="intro-text">
-          <div class="intro-lead-in">Bienvenidos a</div>
-          <div class="intro-heading text-uppercase">Tecnologia Universal S.A.C</div>
-          <a
-            class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
-            href="#services"
-          >Contáctenos</a>
+          <div class="intro-lead-in">Hola Soy</div>
+          <div class="intro-heading">Owen Yaipen</div>
+          <div class="intro-lead-in">Progranador web</div>
         </div>
       </div>
     </header> 

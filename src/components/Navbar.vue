@@ -1,5 +1,5 @@
 <template>
-  <b-navbar toggleable="lg" type="dark" id="mainNav">
+  <b-navbar toggleable="lg" type="dark" class="navbar fixed-top" id="mainNav">
     <b-container>
       <b-navbar-brand :to="{ name: user ? 'home' : 'welcome' }" class="navbar-brand">{{ appName }}</b-navbar-brand>
 
@@ -10,7 +10,7 @@
 
       <b-collapse id="nav-collapse" is-nav>
         <b-navbar-nav>
-          <locale-dropdown class="nav-item"  />
+          <locale-dropdown class="nav-item" />
         </b-navbar-nav>
 
         <!-- Right aligned nav items -->
@@ -103,9 +103,8 @@ export default {
 </script>
 
 <style scoped>
-.profile-photo {
-  width: 2rem;
-  height: 2rem;
-  margin: -0.375rem 0;
+.dropdown-menu {
+  width: 30px !important;
+  height: 40px !important;
 }
 </style>

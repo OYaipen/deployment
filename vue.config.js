@@ -7,9 +7,9 @@ module.exports = {
     outputDir: './dist',
     chainWebpack: config => {
         config
-            .entry("app")
+            .entry("main")
             .clear()
-            .add("./src/app.js")
+            .add("./src/main.js")
             .end();
         config.resolve.alias
             .set("~", path.join(__dirname, "./src"))
