@@ -72,5 +72,6 @@
   "user_standard": "Usuario Estándar",
   "developer": "Desarrollador",
   "close": "Cerrar",
-  "create": "Crear"
+  "create": "Crear",
+  "error_conection":"Error en la conexion a internet"
 }
