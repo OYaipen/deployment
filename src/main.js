@@ -1,5 +1,5 @@
-// import '@babel/polyfill'
-// import 'mutationobserver-shim'
+import '@babel/polyfill'
+import 'mutationobserver-shim'
 import Vue from 'vue'
 import store from '~/store'
 import router from '~/router'
